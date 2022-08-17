@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/normalize.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>UI elemets</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">UI elements</div>
+        <div class="header__underline"></div>
+    </header>
+    <section class="section">
+        <div class="title">Select</div>
+        <div class="container">
+            <div class="main">
+                <div class="main__left">
+                    <div class="subtitle">Неактивное состояние</div>
+
+                    <div class="accordion">
+                        <div class="accordion__item">
+                            <input class="accordion__input" type="checkbox" id="accord_1">  
+                            <label class="accordion__title" for="accord_1">Выбрать рубрику</label>
+                            <div class="accordion__content">
+                                <ul>
+                                    <li class="accordion__list">Медицина</li>
+                                    <li class="accordion__list">Общество</li>
+                                    <li class="accordion__list">Коммуналка</li>
+                                    <li class="accordion__list">Политика</li>
+                                    <li class="accordion__list">Спорт</li>
+                                    <li class="accordion__list">Вектор развития</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="subtitle">Активное состояние</div>
+
+                    <div class="accordion">
+                        <div class="accordion__item_active">
+                            <input class="accordion__input_active" type="checkbox" id="accord_2">  
+                            <label class="accordion__title_active" for="accord_2">Выбрать рубрику</label>
+                            <div class="accordion__content_active">
+                                <ul class="accordion__ul">
+                                    <li class="accordion__list">Медицина</li>
+                                    <li class="accordion__list">Общество</li>
+                                    <li class="accordion__list">Коммуналка</li>
+                                    <li class="accordion__list">Политика</li>
+                                    <li class="accordion__list">Спорт</li>
+                                    <li class="accordion__list">Вектор развития</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__right">
+                    <div class="subtitle">Недоступен</div>
+                    
+                    <div class="accordion">
+                        <div class="accordion__item_disabled">
+                            <input class="accordion__input_disabled" type="checkbox" id="accord_3">  
+                            <label class="accordion__title" for="accord_3">Выбрать рубрику</label>
+                            <div class="accordion__content">
+                                <ul>
+                                    <li class="accordion__list">Медицина</li>
+                                    <li class="accordion__list">Общество</li>
+                                    <li class="accordion__list">Коммуналка</li>
+                                    <li class="accordion__list">Политика</li>
+                                    <li class="accordion__list">Спорт</li>
+                                    <li class="accordion__list">Вектор развития</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="subtitle">Активное состояние, 1 из вариантов недоступен</div>
+                    
+                    <div class="accordion">
+                        <div class="accordion__item">
+                            <input class="accordion__input" type="checkbox" id="accord_4">  
+                            <label class="accordion__title" for="accord_4">Выбрать рубрику</label>
+                            <div class="accordion__content">
+                                <ul>
+                                    <li class="accordion__list_disabled">Медицина</li>
+                                    <li class="accordion__list">Общество</li>
+                                    <li class="accordion__list">Коммуналка</li>
+                                    <li class="accordion__list">Политика</li>
+                                    <li class="accordion__list">Спорт</li>
+                                    <li class="accordion__list">Вектор развития</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section__underline"></div>
+    </section>
+    <section class="section">
+        <div class="calendar">
+            <img src="/assets/images/Calendar.svg" alt="Calendar">
+        </div>
+        <div class="section__underline"></div>
+    </section>
+
+    <section class="section-last">
+        <div class="footer">
+            <div class="title">Социальные сети</div>
+        
+            <div class="content">   
+                <a class="content__link" href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                <a class="content__link" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a class="content__link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div class="basement"></div>
+    </section>
+
+    
+
+    <script src="https://use.fontawesome.com/235709d820.js"></script>
+
+</body>
+</html>
