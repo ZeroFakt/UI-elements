@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #F2F2F2;
+    color: #2C2D2E;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 24px;
+}
+
+p {
+    margin: 0;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 70px;
+
+    padding-top: 55px;
+
+    color: #000;
+}
+
+
+/* Header */
+.header {
+    max-width: 1503px;
+    margin: 0 auto;
+}
+
+.header__item {
+    width: 224px;
+
+    padding: 15px;
+
+    border: 2px solid #9F0023;
+    border-radius: 56px;
+
+    cursor: pointer;
+}
+
+.header__button {
+    font-weight: 500;
+    font-size: 16px;
+
+    padding-left: 20px;
+
+    color: #9F0023;
+    text-decoration: none;
+}
+
+.header__contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 44px;
+}
+
+.header__p {
+    font-weight: 700;
+    font-size: 20px;
+
+    color: #000;
+}
+
+.header__underline {
+    border-bottom: 4px solid #000;
+
+    padding-top: 24px;
+}
+
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0;
+
+    padding-top: 60px;
+}
+
+
+/* Number */
+.number {
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* Search */
+.search {
+    display: block;
+
+    width: 18px;
+    height: 18px;
+
+    background-image: url(../images/header/Search.svg);
+    background-image: no-repeat;
+
+    color: #000;
+}
+
+
+/* Nav */
+.nav {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav__link {
+    display: inline-block;
+
+    padding-right: 48px;
+
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* Content */
+.content {
+    display: inline-block;
+}
+
+.content__link {
+    display: inline-block;
+
+    padding-left: 16px;
+
+    color: #000;
+}
+
+
+/* Section */
+.section {
+    max-width: 1503px;
+    margin: 0 auto;
+}
+
+.section__left_new {
+    background-image: url(../images/new/1.png);
+}
+
+
+/* Logos */
+.logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.logos__img {
+    display: block;
+    width: 469px;
+    height: auto;
+}
+
+.logos__title {
+    padding-top: 35px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 135%;
+
+    color: #9F0023;
+
+    cursor: pointer;
+}
+
+.logos__text {
+    padding-top: 12px;
+    padding-bottom: 80px;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #373334;
+}
+
+
+/* Main */
+.main {
+    display: flex;
+    justify-content: space-between;
+
+    gap: 50px;
+}
+
+
+/* Accordion */
+.accordion {
+    font-size: 16px;
+    font-weight: 400;
+    height: 60px;
+
+    padding-bottom: 60px;
+    
+}
+
+.accordion__item {
+    position: relative;
+
+    width: 469px;
+
+    display: block;
+    border: 2px solid #373334;
+
+    cursor: pointer;
+}
+
+.accordion__input {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+}
+
+.accordion__input:checked ~ .accordion__content {
+    display: block;
+}
+
+.accordion__input:checked ~ .accordion__title{
+    border-bottom: 2px solid #373334;
+}
+
+.accordion__title {
+    display: block;
+
+    padding: 20px 24px;
+
+    cursor: pointer;
+}
+
+.accordion__content {
+    display: none;
+
+    position: relative;
+    background: #F2F2F2;
+    z-index: 1000;
+    font-weight: 500
+}
+
+.accordion__list {
+    list-style: none;
+
+    padding-bottom: 16px;
+
+    cursor: pointer;
+
+    transition: background .1s linear;
+}
+
+.accordion__list:hover {
+    color: #9F0023;
+}
+
+
+/* Footer */
+.footer {
+    max-width: 1903px;
+
+    margin: 0 auto;
+
+    background-color: #fff;
+}
+
+.footer__title {
+    font-weight: 400;
+    font-size: 24px;
+
+    padding-top: 70px;
+    padding-left: 200px;
+    padding-bottom: 21px;
+
+    color: #000;
+}
+
+.footer__link {
+    width: 23px;
+    height: 16px;
+
+    padding-left: 0;
+    padding-right: 20px;
+
+    color: #000;
+}
+
+.footer__link:first-child {
+    width: 23px;
+    height: 16px;
+
+    padding-left: 200px;
+    padding-right: 20px;
+
+    color: #000;
+}
+
+.footer__underline {
+    width: 1503px;
+    margin: 0 auto;
+
+    border-bottom: 2px solid #000;
+
+    padding-top: 57px;
+}
+
+.footer__last {
+    padding-top: 47px;
+    padding-left: 200px;
+}
