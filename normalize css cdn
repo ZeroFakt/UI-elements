@@ -1,1 +1,19 @@
-https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css
+/* Links */
+  https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css
+
+
+
+/* Useful Colors */
+  $accent: #D7B399;
+  $dark: #212121;
+  $light: #F9F6F1;
+  $gray: #CBCFD4;
+  $light-gray: #F4F4F4;
+  $dark-gray: #8D8D8D;
+  $important: #D84033;
+
+
+
+/* Extensions */
+  Live Server
+  Sass/Less/Stylus/Pug/Jade/Typescri
